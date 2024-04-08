@@ -47,7 +47,7 @@ function TopNav() {
           )}
 
           {searchedData.length > 0 && (
-            <div className="show-searched-results rounded-lg max-h-[50vh] w-full left-1/2 translate-x-[-50%] bg-[#04293A] absolute top-[115%] overflow-auto p-3 flex flex-col items-center gap-2">
+            <div className="show-searched-results z-[99999] rounded-lg max-h-[50vh] w-full left-1/2 translate-x-[-50%] bg-[#04293A] absolute top-[115%] overflow-auto p-3 flex flex-col items-center gap-2">
               {searchedData.map((movie, index) => (
                 <div
                   key={index}
